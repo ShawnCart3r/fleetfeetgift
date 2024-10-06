@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the top of the page */
+  height: 100vh;
+  background: url('/image/village.webp') no-repeat center center fixed; /* Snow background image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  overflow-y: auto; /* Allows vertical scrolling if necessary */
+}
+
+.landing-container {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff; /* White background for contrast */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-top: 50px; /* Added space above the container */
+}
+
+/* Logo Container */
+.logo-container {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 200px; /* Keep the logo prominent */
+  height: auto;
+  display: block;
+  margin-top: 30px; /* Added space between the logo and the top of the container */
+}
+
+/* Image and Text Box Below Logo */
+.image-text-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff; /* White background for the image-text section */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Light shadow for subtle depth */
+}
+
+.image-below-logo {
+  width: 100%; 
+  max-width: 400px; /* Moderate size to balance the layout */
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px; /* Rounded corners for the image */
+}
+
+.text-box {
+  background-color: #f7f9fc;
+  padding: 15px;
+  border-radius: 8px;
+  color: #333; /* Darker text for readability */
+  font-size: 1.1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Light shadow for subtle depth */
+}
+
+/* Carousel */
+.carousel-wrapper {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* Light shadow to lift the carousel */
+  margin-bottom: 20px;
+}
+
+.content-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 10px;
+}
+
+.carousel-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+/* Dots for Carousel Control */
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active, .dot:hover {
+  background-color: #1E90FF; /* Active state for blue dots */
+}
+
+
+
+
