@@ -1,3 +1,4 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -59,13 +60,23 @@ body, html {
     border: 2px solid #1E90FF; /* Fleet Feet Blue border */
 }
 
+/* Stylized Paragraphs */
 .text-box {
     background-color: #f7f9fc;
     padding: 15px;
     border-radius: 8px;
     color: #333333; /* Gray text color */
     font-size: 1.1rem;
+    line-height: 1.6; /* Increased line spacing for readability */
+    letter-spacing: 0.5px; /* Subtle letter spacing for a polished look */
+    text-align: left; /* Keep the text left-aligned */
+    font-weight: 300; /* Light font weight for a modern and clean appearance */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+}
+
+.text-box p {
+    margin-bottom: 15px; /* Added spacing between paragraphs */
+    color: #555555; /* Dark gray color for paragraph text */
 }
 
 /* Carousel */
@@ -124,6 +135,3 @@ body, html {
 .dot.active, .dot:hover {
     background-color: #1E90FF; /* Fleet Feet Blue for active and hover state */
 }
-
-
-
