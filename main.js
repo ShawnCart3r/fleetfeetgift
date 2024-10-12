@@ -21,7 +21,7 @@ function autoSlide() {
     autoSlideInterval = setInterval(() => {
         currentIndex = (currentIndex + 1) % contentBoxes.length;
         showContent(currentIndex + 1);
-    }, 3000); // Slides change every 3 seconds
+    }, 9000); // Slides change every 9 seconds
 }
 
 window.onload = autoSlide;
